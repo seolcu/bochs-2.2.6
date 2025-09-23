@@ -116,3 +116,10 @@ Compile and install to system:
 make
 sudo make install
 ```
+
+Copy ROM&BIOS files:
+
+```bash
+sudo mkdir /usr/share/bochs
+sudo cp bios/BIOS-bochs-latest bios/VGABIOS-lgpl-latest /usr/share/bochs/
+```
